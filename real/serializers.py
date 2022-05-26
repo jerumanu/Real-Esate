@@ -5,7 +5,7 @@ from .models import *
 class DetailSerializer(serializers.ModelSerializer):
     class Meta:
         model = Detail
-        fields = ['id', 'title', 'detail_descripe', 'photos', 'bedRooms', 'bathRooms']
+        fields = ['id', 'title', 'detail_descripe', 'photos', 'bedroom_no', 'bathroom_no']
 
 
 class PostSerializer(serializers.ModelSerializer):

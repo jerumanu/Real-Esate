@@ -6,11 +6,11 @@ from django.db import models
 
 
 class Detail(models.Model):
-    # title=CharField(max_length=50)
+    title=models.CharField(max_length=50)
     detail_descripe=models.CharField(max_length=50)
     photos= models.ImageField()
-    bedRooms=  models.IntegerField()
-    bathRoom=models.ImageField()
+    bedroom_no=  models.IntegerField()
+    bathroom_no=models.IntegerField()
 
 
     def __str__(self):
