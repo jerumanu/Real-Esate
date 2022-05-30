@@ -14,7 +14,7 @@ class DetailViewSet(viewsets.ModelViewSet):  # new
    
     queryset = Detail.objects.all()
     serializer_class = DetailSerializer
-
+    
 
 class PostViewSet(viewsets.ModelViewSet):  # new
 

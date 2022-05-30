@@ -4,8 +4,8 @@ from .views import *
 
 
 urlpatterns = [
-    path('details',DetailViewSet.as_view(), name='details'),
-    path('posts', PostViewSet.as_view(), name='posts'),
-    path('descriptions', EstateViewSet.as_view(), name='descriptions'),
-    path('amentitis', AmentitisViewSet.as_view(), name='amentitis'),
+    # path('detail',DetailViewSet.as_view(), name='details'),
+    # path('posts', PostViewSet.as_view(), name='posts'),
+    # path('amentit', EstateViewSet.as_view(), name='descriptions'),
+    # path('amentit', AmentitisViewSet.as_view(), name='amentitis'),
 ]

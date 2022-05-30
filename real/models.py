@@ -26,7 +26,7 @@ class Estate(models.Model):
     locations= models.CharField(max_length=20)
     price=models.IntegerField()
     image=models.ImageField()
-
+    description=models.CharField(max_length=200)
 class Amentitis(models.Model):
     security=models.CharField(max_length=10)
     parking=models.CharField(max_length=10) 

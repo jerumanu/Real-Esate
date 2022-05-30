@@ -17,7 +17,7 @@ class PostSerializer(serializers.ModelSerializer):
 class EstateSerializer(serializers.ModelSerializer):
     class Meta:
         model = Estate
-        fields = ['id', 'location', 'price',  'image', 'description']
+        fields = ['id', 'locations', 'price',  'image', 'description']
 
 
 class AmentitisSerializer(serializers.ModelSerializer):
